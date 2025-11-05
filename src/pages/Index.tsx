@@ -41,6 +41,33 @@ const Index = () => {
       price: '15 000 ₽',
       image: 'https://cdn.poehali.dev/projects/f0c44fe0-8631-4ef5-a33f-cde25702b094/files/54f0375f-d8e2-4537-8a81-05646454da3e.jpg',
       features: ['Wi-Fi', 'Кухня', 'Камин', 'Панорамные окна', 'Джакузи']
+    },
+    {
+      id: 4,
+      name: 'Уютное Гнёздышко',
+      capacity: '2-3 человека',
+      area: '50 м²',
+      price: '6 000 ₽',
+      image: 'https://cdn.poehali.dev/projects/f0c44fe0-8631-4ef5-a33f-cde25702b094/files/dbea8556-bf1f-4a81-8d51-fedc993cf2dc.jpg',
+      features: ['Wi-Fi', 'Кухня', 'Романтическая обстановка']
+    },
+    {
+      id: 5,
+      name: 'Каменный Дом',
+      capacity: '5-7 человек',
+      area: '100 м²',
+      price: '10 000 ₽',
+      image: 'https://cdn.poehali.dev/projects/f0c44fe0-8631-4ef5-a33f-cde25702b094/files/6f009057-e170-4c18-807a-5562cb04ee8e.jpg',
+      features: ['Wi-Fi', 'Кухня', 'Камин', 'Каменная печь', 'Терраса']
+    },
+    {
+      id: 6,
+      name: 'Премиум Вилла',
+      capacity: '10-12 человек',
+      area: '200 м²',
+      price: '20 000 ₽',
+      image: 'https://cdn.poehali.dev/projects/f0c44fe0-8631-4ef5-a33f-cde25702b094/files/1bae3ec8-074f-4a77-a7df-cebbef244ab2.jpg',
+      features: ['Wi-Fi', 'Кухня', 'Камин', 'Панорамные окна', 'Джакузи', 'Сауна', 'Бильярд']
     }
   ];
 
