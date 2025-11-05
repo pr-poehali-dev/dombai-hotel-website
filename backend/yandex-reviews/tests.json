@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "Get reviews for organization",
+      "method": "GET",
+      "path": "/?org_id=f2ca097c-5b35-4a50-9505-910a158d519b",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "rating": "number",
+        "reviews_count": "number",
+        "name": "string"
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Handle OPTIONS request",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200
+    }
+  ]
+}
